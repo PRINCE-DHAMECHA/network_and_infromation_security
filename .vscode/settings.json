@@ -1,0 +1,10 @@
+{
+  "files.associations": {
+    "ostream": "cpp",
+    "sstream": "cpp",
+    "regex": "cpp",
+    "iostream": "cpp",
+    "random": "cpp",
+    "iomanip": "cpp"
+  }
+}
