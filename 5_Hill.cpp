@@ -538,6 +538,17 @@ string hillDecryption(string cipher, vii k)
 int main()
 {
     __DONT_RAISE_YOUR_VOICE__IMPROVE_YOUR_ARGUMENT__$;
+    // outl("Enter key size:");
+    // ni(s);
+    // outl("Enter Key:");
+    // vii k;
+    // forr(i, s)
+    // {
+    //     getvecti(v, s);
+    //     k.pb(v);
+    // }
+    // cout << "Enter Plain Text:";
+    // str s;
     vii k1 = {{11, 13},
               {3, 8}};
     vii k2 = {{9, 7, 13},
@@ -570,3 +581,233 @@ int main()
     cout << "Decrypted Text: " << decrypt << endl;
     rtn 0;
 }
+
+///// Output /////
+
+// Plain Text: codeisreadybyprince
+
+// Adjusted Plain Text: codeisreadybyprincez
+
+// Plain Text Matrix:
+// 02 14
+// 03 04
+// 08 18
+// 17 04
+// 00 03
+// 24 01
+// 24 15
+// 17 08
+// 13 02
+// 04 25
+
+// Key Matrix:
+// 11 13
+// 03 08
+
+// Cipher Matrix Before Mod:
+// 0064 0138
+// 0045 0071
+// 0142 0248
+// 0199 0253
+// 0009 0024
+// 0267 0320
+// 0309 0432
+// 0211 0285
+// 0149 0185
+// 0119 0252
+
+// Cipher Matrix After Mod:
+// 12 08
+// 19 19
+// 12 14
+// 17 19
+// 09 24
+// 07 08
+// 23 16
+// 03 25
+// 19 03
+// 15 18
+
+// Encrypted Text: mittmortjyhixqdztdps
+
+// Cipher Text: mittmortjyhixqdztdps
+
+// Adjusted Cipher Text: mittmortjyhixqdztdps
+
+// Cipher Text Matrix:
+// 12 08
+// 19 19
+// 12 14
+// 17 19
+// 09 24
+// 07 08
+// 23 16
+// 03 25
+// 19 03
+// 15 18
+
+// Inverse Matrix Of Key:
+// 06 13
+// 01 05
+
+// Plain Matrix Before Mod:
+// 0080 0196
+// 0133 0342
+// 0086 0226
+// 0121 0316
+// 0078 0237
+// 0050 0131
+// 0154 0379
+// 0043 0164
+// 0117 0262
+// 0108 0285
+
+// Plain Matrix After Mod:
+// 02 14
+// 03 04
+// 08 18
+// 17 04
+// 00 03
+// 24 01
+// 24 15
+// 17 08
+// 13 02
+// 04 25
+
+// Decrypted Text: codeisreadybyprincez
+
+// Plain Text: codeisreadybyprince
+// Encrypted Text: mittmortjyhixqdztdps
+// Decrypted Text: codeisreadybyprincez
+
+// Plain Text: codeisready
+
+// Adjusted Plain Text: codeisreadyz
+
+// Plain Text Matrix:
+// 02 14 03
+// 04 08 18
+// 17 04 00
+// 03 24 25
+
+// Key Matrix:
+// 09 07 13
+// 04 07 05
+// 03 21 08
+
+// Cipher Matrix Before Mod:
+// 0083 0175 0120
+// 0122 0462 0236
+// 0169 0147 0241
+// 0198 0714 0359
+
+// Cipher Matrix After Mod:
+// 05 19 16
+// 18 20 02
+// 13 17 07
+// 16 12 21
+
+// Encrypted Text: ftqsucnrhqmv
+
+// Cipher Text: ftqsucnrhqmv
+
+// Adjusted Cipher Text: ftqsucnrhqmv
+
+// Cipher Text Matrix:
+// 05 19 16
+// 18 20 02
+// 13 17 07
+// 16 12 21
+
+// Inverse Matrix Of Key:
+// 23 17 04
+// 17 19 19
+// 15 12 17
+
+// Plain Matrix Before Mod:
+// 0678 0638 0653
+// 0784 0710 0486
+// 0693 0628 0494
+// 0887 0752 0649
+
+// Plain Matrix After Mod:
+// 02 14 03
+// 04 08 18
+// 17 04 00
+// 03 24 25
+
+// Decrypted Text: codeisreadyz
+
+// Plain Text: codeisready
+// Encrypted Text: ftqsucnrhqmv
+// Decrypted Text: codeisreadyz
+
+// Plain Text: codeisdonebyprince
+
+// Adjusted Plain Text: codeisdonebyprincezz
+
+// Plain Text Matrix:
+// 02 14 03 04
+// 08 18 03 14
+// 13 04 01 24
+// 15 17 08 13
+// 02 04 25 25
+
+// Key Matrix:
+// 09 07 11 13
+// 04 07 05 06
+// 02 21 14 09
+// 03 23 21 08
+
+// Cipher Matrix Before Mod:
+// 0092 0267 0218 0169
+// 0192 0567 0514 0351
+// 0207 0692 0681 0394
+// 0258 0691 0635 0473
+// 0159 1142 0917 0475
+
+// Cipher Matrix After Mod:
+// 14 07 10 13
+// 10 21 20 13
+// 25 16 05 04
+// 24 15 11 05
+// 03 24 07 07
+
+// Encrypted Text: ohknkvunzqfeyplfdyhh
+
+// Cipher Text: ohknkvunzqfeyplfdyhh
+
+// Adjusted Cipher Text: ohknkvunzqfeyplfdyhh
+
+// Cipher Text Matrix:
+// 14 07 10 13
+// 10 21 20 13
+// 25 16 05 04
+// 24 15 11 05
+// 03 24 07 07
+
+// Inverse Matrix Of Key:
+// 02 15 22 03
+// 15 00 19 03
+// 09 09 03 11
+// 17 00 04 07
+
+// Plain Matrix Before Mod:
+// 0444 0300 0523 0264
+// 0736 0330 0731 0404
+// 0403 0420 0885 0206
+// 0457 0459 0866 0273
+// 0548 0108 0571 0207
+
+// Plain Matrix After Mod:
+// 02 14 03 04
+// 08 18 03 14
+// 13 04 01 24
+// 15 17 08 13
+// 02 04 25 25
+
+// Decrypted Text: codeisdonebyprincezz
+
+// Plain Text: codeisdonebyprince
+// Encrypted Text: ohknkvunzqfeyplfdyhh
+// Decrypted Text: codeisdonebyprincezz
